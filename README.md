@@ -34,3 +34,14 @@ We can simply use ```printenv``` command for this.
 The ```#!``` symbol call as Shebang. Shebang acts as an interpreter to execute the file(script file.).Like if we added #!/bin/bash then the interpreter shell here is bash shell. and all commands or the instructions specified in the script are executed by the bash shell.
 ### What does "&" after a command do?
 Whenever we want to run the command or a script in background , then at last of command we use "&". It will use when some script or some command take much time for execution so that we don't need to wait for its execution or at the time when we don't want to loose shell prompt and want to continue with it.
+
+### What does piping commands mean?
+The piping ```|``` mean providing output of one command to the input to another command. Like if we want to check whether the particular user is available in the system we can first print the /etc/passwd file using ```cat``` and provide the output of this to ```grep``` to search the particular String in it. Like as follows
+```
+cat /etc/passwd | grep "sunrays"
+```
+The above command will result like
+```
+sunrays:x:1002:1002::/home/sunrays:
+```
+Otherwise it will be empty.
