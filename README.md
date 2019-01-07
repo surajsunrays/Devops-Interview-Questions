@@ -26,3 +26,6 @@ sudo service <service-name> start
 ```
 sudo service <service-name> stop
 ```
+
+### How do you display the shell’s environment variables?
+We can simply use ```printenv``` command for this.
