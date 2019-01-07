@@ -32,3 +32,5 @@ We can simply use ```printenv``` command for this.
 
 ### What does #!/bin/bash at the top of a script do?
 The ```#!``` symbol call as Shebang. Shebang acts as an interpreter to execute the file(script file.).Like if we added #!/bin/bash then the interpreter shell here is bash shell. and all commands or the instructions specified in the script are executed by the bash shell.
+### What does "&" after a command do?
+Whenever we want to run the command or a script in background , then at last of command we use "&". It will use when some script or some command take much time for execution so that we don't need to wait for its execution or at the time when we don't want to loose shell prompt and want to continue with it.
