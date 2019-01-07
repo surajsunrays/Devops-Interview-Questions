@@ -52,3 +52,23 @@ I have used Ubuntu and CentOS on servers. These are the mostly used distribution
 ## Configuration Management
 ### Which Configuration Management tools are you most comfortable with?
 Ansible.
+
+## Container
+### How does Docker improve scalability, distributed computing, and efficiency vs. traditional cloud virtual machines?
+With traditional cloud virtual machine, the speed of application deployment is somewhat slow as compared to docker because of following reasons.
+##### 1. Traditional Cloud VM contains some of the unnecessary libraries and dependencies which makes them heavy.
+##### 2. Because of this Heavy Libs/deps, the boot time is also more(In minutes).
+##### 3. because of these unnecessary libs/deps , our resources are also wasted.(Like disk space, CPU, memory, N/W resources for some unncessary services and process.)
+##### 4. Scale up any application is only possible with manual work or complicated script file.
+Docker will overcome these all limitations and provides some challenging features like,
+##### 1. Fast bootup time (In Seconds).
+##### 2. Its does not contain any unnecessary libs/deps.(no wastage of resources)
+##### 3. Mostly deal with quick application deployment.(With Dockerfile)
+##### 4. We can use it with CICD pipeline.
+Among these advantages, docker comes up with various inbuilt tools like docker-compose and docker swarm which makes multi-app container deployments possible. by using docker-compose , we can combine multiple app in the compose file , generally called docker-compose file, where we can specify our multiple apps and its interactions. Eg. MEAN stack Application.
+By using docker swarm , the distributed application deployment is much easier. In swarm , we can connect multiple docker deamons by using overlay network and can deploy our app on these docker deamons using docker stack.
+By using docker swarm mode, we can scale any application with a single command and able to create number of replicas of any application.
+To scale our application in docker swarm mode , we simply use,
+```
+docker service scale <app-name>=<no-of-replicas>
+```
