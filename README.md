@@ -29,3 +29,6 @@ sudo service <service-name> stop
 
 ### How do you display the shell’s environment variables?
 We can simply use ```printenv``` command for this.
+
+### What does #!/bin/bash at the top of a script do?
+The ```#!``` symbol call as Shebang. Shebang acts as an interpreter to execute the file(script file.).Like if we added #!/bin/bash then the interpreter shell here is bash shell. and all commands or the instructions specified in the script are executed by the bash shell.
