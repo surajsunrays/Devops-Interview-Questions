@@ -15,3 +15,14 @@ We can use ```top``` command for that. ```htop``` we can use for interactive pro
 
 ### How do you check server uptime?
 By using ```uptime``` command. by providing -p option, it will show the output in pretty format.
+
+### How do you start/stop services?
+To start or stop service , we can use service command with sudo option.
+##### To start the services , we can use
+```
+sudo service <service-name> start
+```
+##### To stop the services, we can use
+```
+sudo service <service-name> stop
+```
