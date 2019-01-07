@@ -45,3 +45,6 @@ The above command will result like
 sunrays:x:1002:1002::/home/sunrays:
 ```
 Otherwise it will be empty.
+
+### What distributions have you used on servers?Why?
+I have used Ubuntu and CentOS on servers. These are the mostly used distributions on cloud because of its Support , Ease of use, and Simplicity. These Distributions are open source and free to use. Both distributions has large community support and it's easy to learn.
