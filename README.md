@@ -9,3 +9,6 @@ It is the part of software development strategies where fresh code commits are i
 As there are so many CI tools are available in market and each has their own advantages and limitations. The most popular CI tool nowdays and I have used is, jenkins. It is open source Integration Server that comes with numbers of plugins and huge community support.With the helps of plugins , its can able to provide many features. and with it's community support , we can find solution of any problem that we are facing while working with Jenkins.
 
 
+## Linux
+### How can you view running processes?
+We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
