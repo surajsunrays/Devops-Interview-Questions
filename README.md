@@ -12,3 +12,6 @@ As there are so many CI tools are available in market and each has their own adv
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
+
+### How do you check server uptime?
+By using ```uptime``` command. by providing -p option, it will show the output in pretty format.
