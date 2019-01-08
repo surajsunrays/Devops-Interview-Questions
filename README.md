@@ -24,6 +24,11 @@ Continuous delivery makes it economic to work in small batches. This means we ca
 ##### happier Teams
 Software delivery teams can engage more actively with users, learn which ideas work and which don’t, and see first-hand the outcomes of the work they have done. By removing the low-value painful activities associated with software delivery, we can focus on what we care about most—continuously delighting our users.
 
+## Source Control
+### What types of source control programs are you comfortable with?
+I'm comfortable with Git, which most popular, open source , Highly Secured , reliable, Distributed Source Control (VCS, Version Control System) System.
+
+
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
