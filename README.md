@@ -8,7 +8,7 @@ It is the part of software development strategies where fresh code commits are i
 ### What CI tools have you used?
 As there are so many CI tools are available in market and each has their own advantages and limitations. The most popular CI tool nowdays and I have used is, jenkins. It is open source Integration Server that comes with numbers of plugins and huge community support.With the helps of plugins , its can able to provide many features. and with it's community support , we can find solution of any problem that we are facing while working with Jenkins.
 ### What is Continuous Delivery and why is it important?
-Continuous Delivery is an extension to the Continuous Integration. It is a approach where teams ensure that the changes to the system and releasable. We achieve all these by ensuring that our code is always in deployable state.
+Continuous Delivery is an extension to the Continuous Integration. It is a approach where teams ensure that the changes to the system are releasable. We achieve all these by ensuring that our code is always in deployable state.
 We can achieve several benefits using continuous delivery. As follows,
 ##### Low risk releases :
 This is the primary goal of continuous delivery is to be software deployments painless, low risk events, that can be performed at any time, on demand.
