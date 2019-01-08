@@ -95,3 +95,9 @@ As on <b>Linux</b> , <b>LAMP</b> provides the all in one functionality for devel
 On <b>Windows</b> platform, <b>WINS</b> provide full features and functionality for development on Windows Platform. While WINS Software stack is Proprietary Softwares. But This provides full support on windows Platform. By using WINS Stack ,Moslty standalone applications are being developed which are natively works on Windows.<br>
 Coming to <b>ELK<b> Stack,Which is mostly used for <b>log analysis and management</b>, Is also an open source software stack. Where Elasticsearch is acts as a powerfull search engine which is responsible for searching the required data from the large collection of Data. Logstash will acts as a collector and storage engine, and Kibana provides beautifull and user friendly interface for Data Visualization.<br>
 While there is lots of other tools can be used with ELK Stack like filebeat, Metricbeat and so on.
+
+### Describe your worst Fear?
+### What new technology would you like to learn?
+I would like to learn Hadoop with DevOps Prospective. As we know that Hadoop deals with <b>"Big Data"</b> Techniques and can process petabytes of data in seconds. While the increasing database in Hadoop cluster, It needs more and more nodes to store this data and this distributed dataset is sometimes challange to the Server administrator. Combining DevOps for Hadoop is somewhat challenging thing but these both are latest trends in the market with increasing popularity day-by-day and definitely future of tomorrow's IT world.<br>
+This article on web inspired me lot towards learning Hadoop with DevOps.<br>
+https://community.hortonworks.com/articles/108610/hadoop-devops-better-together.html
