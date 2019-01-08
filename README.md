@@ -7,7 +7,22 @@ It is the part of software development strategies where fresh code commits are i
 
 ### What CI tools have you used?
 As there are so many CI tools are available in market and each has their own advantages and limitations. The most popular CI tool nowdays and I have used is, jenkins. It is open source Integration Server that comes with numbers of plugins and huge community support.With the helps of plugins , its can able to provide many features. and with it's community support , we can find solution of any problem that we are facing while working with Jenkins.
+### What is Continuous Delivery and why is it important?
+Continuous Delivery is an extension to the Continuous Integration. It is a approach where teams ensure that the changes to the system and releasable. We achieve all these by ensuring that our code is always in deployable state.
+We can achieve several benefits using continuous delivery. As follows,
+##### Low risk releases :
+This is the primary goal of continuous delivery is to be software deployments painless, low risk events, that can be performed at any time, on demand.
+##### Faster Time to market
+It is well known that traditional software development lifecycle take much time in Integration and Bug fixing.It make take weeks or even months to complete. When teams works together to automate the process of build and deployment, environment provisioning and so. by this way to cut off the time required for traditional SDLC process and speedup all the operations.
 
+##### Higher Quality
+When developers have automated tools that discovers regression in minute,  teams are freed to focus their effort on user research and higher level testing activities such as exploratory testing, usability testing, and performance and security testing.We can achieve this by building deployment pipeline.This activities are performed continously throughout the delivery process.This way we can ensure quality of product from beginning.
+##### Lower costs.
+By investing in build, test, deployment and environment automation, we substantially reduce the cost of making and delivering incremental changes to software by eliminating many of the fixed costs associated with the release process.
+##### Better Products
+Continuous delivery makes it economic to work in small batches. This means we can get feedback from users throughout the delivery lifecycle based on working software.
+##### happier Teams
+Software delivery teams can engage more actively with users, learn which ideas work and which don’t, and see first-hand the outcomes of the work they have done. By removing the low-value painful activities associated with software delivery, we can focus on what we care about most—continuously delighting our users.
 
 ## Linux
 ### How can you view running processes?
