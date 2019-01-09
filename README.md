@@ -107,6 +107,32 @@ Ansible.
 ## Cloud
 ### Which cloud providers are you familiar with?
 - AWS
+## What are the benefits of using a cloud provider?
+To check out the benefits of cloud, we need to consider the limitations of our own set of servers.<br>
+<b>1. Initial Setup / Requirement </b><br>
+<b>2. Configuration </b><br>
+<b>3. Space Requirement </b><br>
+<b>4. Maintainance </b><br>
+<b>5. Scaling issues </b><br>
+<b>6. Decommisioned Servers </b><br>
+<b>7. Cost </b><br>
+<b>1. Initial Setup / Requirement </b><br>
+Whenever we are going to setup new servers on our own , we need to consider our requirements first. Like the Disk Size of the server, RAM, NICs and much more. And this is the manual activity which takes more time to takes place. While the business growth doesen't allows that much time lapse to provision the server which may be result into the business loss.<br>
+<b>2. Configuration </b><br>
+Once our server setup is done, after that we need to configure our server with some specific configuration that we required to launch our application etc. Again this is also the time consuming process and think that we need to configure some 100s of server with same configuration. That case , provisioning this much servers takes days or weeks.<br>
+<b>3. Space Requirement </b><br>
+To provision our own server, we need some physical space for that. which again came an issue when we don't have enough space on our areas.(Physical Server Locations).<br> 
+<b>4. Maintainance </b><br>
+Wnenever we have our own servers, we need to do regular check and maintainance for those servers.Where we need some human resources to keep track of such things. Which may again come in the result of increased cost.<br>
+<b>5. Scaling issues </b><br>
+At some point of time , we need to provision more servers with same application running on it. Like consider that we have a web application and on weekends we gets lot of traffic on our site. That case we need to provision more servers. But to provision servers with such a limited time span is a very challenging task and if may result into failures then produces major issues.<br>
+<b>6. Decommisioned Servers </b><br>
+Once some project/ Software development done where we are using our servers and now they don't required those servers. That decommisioned servers are again burden to the organization because even they are not in use but we need to keep there maintainance.
+And we need to wait for some situation where we can again use those servers.<br>
+<b>1. Cost </b><br>
+Lots of cost is involve in maintaining such servers starting from physical space requirement to the maintainance, And also need some human resources.<br>
+Cloud providers will do these all things for us, so that we can focus on our business goals. Cloud providers offers on-the-fly VM creations, provides built in configurations or we can create our required configuration very easily and once this done, will can focus once our application rather than it's Provisions on servers. Not only these , Cloud Providers also offers some built in tools for managing such servers on the go.<br>
+
 
 ## Have you managed production systems in the past?
 - No
