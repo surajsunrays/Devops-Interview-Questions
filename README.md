@@ -42,6 +42,10 @@ As the development goes on , at some point it is possibly happen that, some bugg
 While in agile methodology , where we deliver software as a part of features , we need to work on each feature while the software development grows.In such cases , adding the new feature code in the main branch is not a good way. for such situation, we need to create new branch for such feature and when we sure that the feature development is complete and working as expected , we need to add/merge this new feature branch to our main software branch.<br>
 <b>6. And so on </b><br>
 To efficiently solve such issues and provides effective communication, collaboration, speed to the development teams, we need SCM.
+
+### Describe some branching strategies that you have used?
+Whenever we want to add some feature in the software , instead of adding that feature code to the main branch of software, It is better idea to create new branch for that feature and add all that feature related code to that newly created branch only. By using this way , we can easily separate the business logic for that particular feature. Once that feature development is done and we sure that this feature can now merged to the main branch of software, then we simply merge that branch to the master.
+
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
