@@ -165,6 +165,8 @@ Coming to <b>ELK</b> Stack,Which is mostly used for <b>log analysis and manageme
 While there is lots of other tools can be used with ELK Stack like filebeat, Metricbeat and so on.
 
 ### Describe your worst Fear?
+I'm Fearless person. I'm not afraid of any kind of fear like failures. Because I believe in my hard work, and I believe that hard work will soon pay off . Someone says,If you fail 10000 times don't consider it as failures, consider it has , you learn 10000 ways that it won't work.<br>
+
 ### What new technology would you like to learn?
 I would like to learn Hadoop with DevOps Prospective. As we know that Hadoop deals with <b>"Big Data"</b> Techniques and can process petabytes of data in seconds. While the increasing database in Hadoop cluster, It needs more and more nodes to store this data and this distributed dataset is sometimes challange to the Server administrator. Combining DevOps for Hadoop is somewhat challenging thing but these both are latest trends in the market with increasing popularity day-by-day and definitely future of tomorrow's IT world.<br>
 This article on web inspired me lot towards learning Hadoop with DevOps.<br>
