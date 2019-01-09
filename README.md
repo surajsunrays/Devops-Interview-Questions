@@ -27,8 +27,21 @@ Software delivery teams can engage more actively with users, learn which ideas w
 ## Source Control
 ### What types of source control programs are you comfortable with?
 I'm comfortable with Git, which most popular, open source , Highly Secured , reliable, Distributed Source Control (VCS, Version Control System) System.
-
-
+### What are the benefits of using source control?
+To keep track of each an every change in the source code, we need Source Code Management System. Not only this,SCM will offer various feature for software development teams.
+While in Software development, we need to keep track of each an every activity of code. Because many of the developers need to contribute in the single product development. Below some of the issue developer facing if there is not an SCM.<br>
+<b>1. Where to submit changes</b><br>
+More often developers need a single place to commit/submit their code. While in software development , lots of lines of code has to be submitted and merged to the main branch of software developemnt. Due to this all developers need the single place to submit /commit their code frequently.
+<b>2. Collaboration among teams</b><br>
+Many of the developers in software development are working different parts of software, side-by-side. While sometimes they need to comunicate between each other for some kind of functionality in the software. At that time collaboration between the developers is very important. Also there are so many others teams are working on different part of software like testing or QA teams. Thus the collaboration between the teams is much important.
+<b>3. Frequent commits </b><br>
+As we know that its not possible and suitable to complete some large task at one shot, developers will cut such tasks in small units and then start working on such units. Once this units are developed developers will need to commit this unit frequently. To handle such Frequent commit and code changes SCM is much important.
+<b>4. Reverting changes</b><br>
+As the development goes on , at some point it is possibly happen that, some buggy code is commited to the main branch of software , due to which software will goes into the buggy state. Such cases , we need to revert back to the state where our software is free from that buggy code. Thus reverting back into the state where everything is working fine as expected is much important.
+<b>5. Adding new Feature in Software</b><br>
+While in agile methodology , where we deliver software as a part of features , we need to work on each feature while the software development grows.In such cases , adding the new feature code in the main branch is not a good way. for such situation, we need to create new branch for such feature and when we sure that the feature development is complete and working as expected , we need to add/merge this new feature branch to our main software branch.
+<b>6. And so on </b><br>
+To efficiently solve such issues and provides effective communication, collaboration, speed to the development teams, we need SCM.
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
