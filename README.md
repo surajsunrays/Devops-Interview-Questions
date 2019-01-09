@@ -46,6 +46,18 @@ To efficiently solve such issues and provides effective communication, collabora
 ### Describe some branching strategies that you have used?
 Whenever we want to add some feature in the software , instead of adding that feature code to the main branch of software, It is better idea to create new branch for that feature and add all that feature related code to that newly created branch only. By using this way , we can easily separate the business logic for that particular feature. Once that feature development is done and we sure that this feature can now merged to the main branch of software, then we simply merge that branch to the master.
 
+### Give an example of a good commit message?
+The good commit message gives the following answers efficiently.
+<b>WHY(The Need, may be bugfix,feature addition,performance,stabilty,realiability or just a change)</b><br>
+<b>HOW(The address to the issue)</b><br>
+<b>WHAT(The effects on the software)</b><br>
+Example as follows:
+Consider we are going to add offers feature to the git , and we are going to create new branch for it and added the first page for that.
+Created layout file and Java file for hot offers
+AndroidProjects/E-comExpress/offers/main/offers.java 
+AndroidProjects/E-comExpress/res/layout/offers_layout.xml
+Two files created for the implementation of offers feature. file offers_layout.xml created for the user interface and offers.java created for implementing logic for offers features.
+this will be used for implementing the feature of offers<br>
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
