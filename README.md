@@ -60,6 +60,12 @@ AndroidProjects/E-comExpress/res/layout/offers_layout.xml<br>
 Two files created for the implementation of offers feature. file offers_layout.xml created for the user interface and offers.java created for implementing logic for offers features.<br>
 This will be used for implementing the feature of offers<br>
 <br>--------------------------------------------------------------<br>
+
+## Architecture
+### Explain what a RESTful architecture is?
+ReST(Representational State Transfer) is a software architectural style that defines a set of constraints to be used for creating web services. Web Services that conforms the ReST architectural style are called as ReSTful web services, provides the interporability  between computer systems on the Internet. RESTful web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations. <br>
+In ReSTful webservices , requests are made to the resource's URI, which sends the response as JSON , XML format. While the response conforms that some alteration has made to the stored resource and response can provide hypertext links to other resources or collection of resources. When HTTP is used, as it most comman, the operations available are GET, PUT, DELETE, POST and other CRUD HTTP methods.<br>
+
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
