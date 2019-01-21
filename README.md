@@ -65,6 +65,7 @@ This will be used for implementing the feature of offers<br>
 ### Explain what a RESTful architecture is?
 ReST(Representational State Transfer) is a software architectural style that defines a set of constraints to be used for creating web services. Web Services that conforms the ReST architectural style are called as ReSTful web services, provides the interporability  between computer systems on the Internet. RESTful web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations. <br>
 In ReSTful webservices , requests are made to the resource's URI, which sends the response as JSON , XML format. While the response conforms that some alteration has made to the stored resource and response can provide hypertext links to other resources or collection of resources. When HTTP is used, as it most comman, the operations available are GET, PUT, DELETE, POST and other CRUD HTTP methods.<br>
+### How would you scale a slow website?
 
 ## Linux
 ### How can you view running processes?
@@ -110,6 +111,17 @@ I have used Ubuntu and CentOS on servers. These are the mostly used distribution
 ### Which Configuration Management tools are you most comfortable with?
 Ansible.
 ## Security
+### What is the importance of SSL?
+SSL is backbone of secure Internet. It Stands for Secure Socket Layer. Nowdays, it is most important and mandatory for most of the websites such as e-commerce sites. SSL provides various advantages to your site, they are as follows:
+#### 1. Encrypt Sensitive Information
+As we know that, whenever we submit our sensitive information such as credit card information, this information is travelled across the internet and at the end provided to the intended user like an e-commerce company. While this information is passes through such large numbers of computers, it is possible that some middle computers may revealed this information to unintended persons. Hackers can get such information and can do any kind of harmful activity. Hence such information has to be secured and only made available to the intended user. We can achieve this by using SSL. SSL provides strong encryption to such information and can only be available to the user who has valid decrytion keys.  SSL encrypt such information and then send it to the server, while if Man-In-Middle Attack happens and hacker eventually get this information , it will totally unreadable because of its encrypted form. 
+#### 2. Provides Authentication
+While using SSL, it will provide the assurity to the user that they are connected to the right website.
+#### 3. Guard against Phishing
+SSL protect against the phishing attacks because it very difficult for malicious user to get the SSL certificate as it goes through the various security checks to get the SSL certificates.
+#### 4. Customer Confidence
+If you are using SSL for your site, almost all browsers will show the green bar at address bar or some green lock icon to show that the site which users are visiting is secured and customers or your site visitors can sure that the information they are submitting is secure. <br>
+
 ## Cloud
 ### Which cloud providers are you familiar with?
 - AWS
