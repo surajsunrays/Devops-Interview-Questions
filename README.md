@@ -102,6 +102,35 @@ We can do following things in such scenarios:<br>
 #### Monitoring:<br>
 #### Storage Space addition:<br>
 
+### What are the advantages and disadvantages of implementing a Microservices architecture?
+#### Advantages of Microservices architecture:
+<b>Scaling:</b> It is very easier to scale the microservices applications which is being used more. <br>
+<b>Resilience:</b> In Microservices architecture , if one service goes down, it will effect the other services in the system.The other part of the system will keep working as usual.<br>
+<b>Technology Mix:</b> With microservices, its not necessary to keep stick with the single techonology. You can Mix any other technology with microservices.<br>
+<b>Easy Deployments:</b> In microservices architecture , if done correctlly, helps in making the deployment process smooth.<br>
+<b>Easy Modifications:</b> Whenever requirement changes and need some modifications in the application, With microservices architecture , it is very easy. as we just need to change/modify the particular service not the whole application. <br>
+<b>Rollbacks:</b> If anything goes wrong, rollbacks in microservices architecture is very easily and quickly. <br>
+
+#### Disadvantages:
+<b>Dependencies Problem:</b><br>
+As we can use more than one language in microservices architecture, We need to manage, handle, test all the dependencies with respective language.<br>
+<b>Non Uniform Service Abstraction:</b><br>
+In webservices, it is possible to have multiple langauages, hence the application does not have a uniform service abstraction.<br>
+<b>Multiple DBs and Transaction Management:</b><br>
+As there are more than one services running at a time, We need to handle and manage all the concurrent services DBs and Tranasactions.<br>
+<b>Testing:</b><br>
+The testing of microservice is very hassel task as it comes with various aspects of Testing , while the room for end-to-end Testing is challenging task.<br>
+<b>Necessary Monitoring:</b><br>
+<b>Decreased Performance:</b><br>
+<b>Increased Memory Consumption:</b><br>
+<b>Deployment Complexity:</b><br>
+<b>Teams Communication Overhead:</b><br>
+<b>Formal Documentation Overhead:</b><br>
+<b>Devops Complexity:</b><br>
+<b>Increased network Communication:</b><br>
+<b>Marshalling and Un-Marshalling :</b><br>
+<b>Network Security:</b><br>
+<b>Production Monitoring:</b><br>
 
 ## Linux
 ### How can you view running processes?
