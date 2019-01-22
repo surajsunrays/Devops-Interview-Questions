@@ -66,7 +66,32 @@ This will be used for implementing the feature of offers<br>
 ReST(Representational State Transfer) is a software architectural style that defines a set of constraints to be used for creating web services. Web Services that conforms the ReST architectural style are called as ReSTful web services, provides the interporability  between computer systems on the Internet. RESTful web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations. <br>
 In ReSTful webservices , requests are made to the resource's URI, which sends the response as JSON , XML format. While the response conforms that some alteration has made to the stored resource and response can provide hypertext links to other resources or collection of resources. When HTTP is used, as it most comman, the operations available are GET, PUT, DELETE, POST and other CRUD HTTP methods.<br>
 ### How would you scale a slow website?
+Our website performance is directly depends on the components of the websites that its using like images, javascripts, CSS and so.
+To scale a slow website , we can do following things:
+Studies show that web page response time can be improved by 25 to 50 percent by following these rules:
 
+    Minimize HTTP requests.
+    Use a content delivery network.
+    Add an Expires or a Cache-Control header.
+    Gzip components.
+    Put stylesheets at the top.
+    Put scripts at the bottom.
+    Avoid CSS expressions.
+    Make JavaScript and CSS external.
+    Reduce DNS lookups.
+    Minify JavaScript and CSS.
+    Avoid redirects.
+    Remove duplicate scripts.
+    Configure ETags.
+    Make Ajax cacheable.
+    Use GET for Ajax requests.
+    Reduce the number of DOM elements.
+    Eliminate 404s.
+    Reduce cookie size.
+    Use cookie-free domains for components.
+    Avoid filters.
+    Do not scale images in HTML.
+    Make favicon.ico small and cacheable.
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
