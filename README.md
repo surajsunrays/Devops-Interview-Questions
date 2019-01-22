@@ -92,6 +92,17 @@ Studies show that web page response time can be improved by 25 to 50 percent by 
     Avoid filters.
     Do not scale images in HTML.
     Make favicon.ico small and cacheable.
+    
+### Your application just got millions of users overnight, what do you do?
+We can do following things in such scenarios:<br>
+#### Plan to Future: <br>
+#### Web/App Architecture:<br>
+#### Ready to Support:<br>
+#### Scale up:<br>
+#### Monitoring:<br>
+#### Storage Space addition:<br>
+
+
 ## Linux
 ### How can you view running processes?
 We can use ```top``` command for that. ```htop``` we can use for interactive process viewer.
